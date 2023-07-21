@@ -2,22 +2,24 @@
 body{
 	background-color:skyblue;
 }
-div{
+
+p:first-child{
 	background-color:black;
 	color:white;
 }
-p:first-child{
-	color:black;
-}
+
 p:last-child{
 	color:red;
 }
-ul li:nth-child(1){
+
+ul li:nth-child(odd){
 	background-color:white;
 }
-ul li:nth-child(2){
+
+ul li:nth-child(even){
 	background-color:lightgray;
 }
+
 ul li:nth-child(3){
 	background-color:pink;
 }
