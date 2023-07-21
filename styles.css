@@ -12,11 +12,11 @@ p:last-child{
 	color:red;
 }
 
-ul li:nth-child(odd){
+ul li:nth-child(1){
 	background-color:white;
 }
 
-ul li:nth-child(even){
+ul li:nth-child(2){
 	background-color:lightgray;
 }
 
