@@ -1,24 +1,54 @@
-body{
-	background-color:skyblue;
-}
+:root{
 
+background-color: rgb(135, 206, 235);
+
+font-family: sans-serif;
+
+}
 p:first-child{
-	background-color:black;
-	color:white;
-}
 
+color: white;
+background-color: black;
+
+}
 p:last-child{
-	color:red;
-}
 
-ul li:nth-child(1), ul li:nth-child(4){
-	background-color:white;
-}
+color: red;
 
-ul li:nth-child(2), ul li:nth-child(5){
-	background-color:slategray;
 }
+/* p:nth-child(1){
 
-ul li:nth-child(3){
-	background-color:pink;
+background-color: black;
+
+} */
+li{
+
+background: slategray;
+
+width: 50%;
+
+padding: 10px;
+
+align-items: center;
+
+}
+li:nth-of-type(2n + 1){
+
+background: white;
+
+}
+li:first-of-type{
+
+font-size: 22px;
+
+}
+li:last-of-type{
+
+font-size: 22px;
+
+}
+li:nth-last-of-type(3){
+
+background-color: pink;
+
 }
